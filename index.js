@@ -61,6 +61,10 @@ app.use('/test',(req,res)=>{
   res.send("<h1>TEST</h1>")
 })
 
+app.use('/test2',(req,res)=>{
+  res.send("<h1>TEST2</h1>")
+})
+
 app.listen(config.port, () => {
   console.log('ready', config.port)
 })
